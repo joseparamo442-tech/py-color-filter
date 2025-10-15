@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-print("Please choose a photo from the list, Bush.JPG, Bobcat.JPG, Rocks.JPG, Stairs.JPG, Trees.JPG:")
+print("Please choose a photo from the list, Bush.JPG, Bobcat.JPG, Rocks.JPG, Trees.JPG:")
 image_path = input("Enter the path to the photo: ")
 image = cv2.imread(image_path)
 resized_img = cv2.resize(image, (400, 600), interpolation=cv2.INTER_LINEAR)
